@@ -15,7 +15,7 @@ export default function Future() {
                 <h2>Trying to find my projects?</h2>
                 <p>As a full time student (17+ credits) who is involved in many activities and employed, I don't end up having time for personal projects.</p>
                 <p>Besides the projects I have done for school and previous employers in which I cannot share, this is the first project I have done!</p>
-                
+                <p>Checking</p>
             </div>
         </section>
 
