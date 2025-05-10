@@ -1,4 +1,5 @@
 import React from 'react'
+import RevealOnScroll from '../UI/RevealOnScroll';
 
 export default function Edu() {
     const courses = [
@@ -12,6 +13,7 @@ export default function Edu() {
     ];
     return (
         <section id="edu" className="min-h-screen font-mono flex items-center justify-center py-20">
+            <RevealOnScroll>
             <div className="max-w-5xl mx-auto px-4">
                 <div className="w-full text-center mb-12">
                     <h2 className="text-4xl font-semibold bg-gradient-to-r from-teal-100 via-teal-500 to-teal-600 bg-clip-text text-transparent">
@@ -84,6 +86,7 @@ export default function Edu() {
 
                 </div>
             </div>
+            </RevealOnScroll>
         </section>
     )
 }

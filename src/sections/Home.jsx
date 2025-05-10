@@ -2,12 +2,14 @@ import React from 'react'
 import pfpImage from "../assets/headshot.png";
 import { FiDownload } from 'react-icons/fi';
 import resume from '../assets/Buzzell_Resume25.pdf'
+import RevealOnScroll from '../UI/RevealOnScroll';
 
 export default function Home() {
     return (
         <section id="home" className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15">
+       
             <div className='text-center z-10 px-4'>
-                <img className="w-[200px] border-0 mt-20 rounded-full shadow-lg shadow-gray500/70 lg:m-0 lg:max-w-[250px] object-cover object-bottom hover:translate-y-1"
+                <img className="w-[300px] border-0 mt-20 rounded-full shadow-lg shadow-gray500/70 lg:m-0 lg:max-w-[250px] object-cover object-bottom hover:translate-y-1"
                     src={pfpImage} alt="Headshot" />
             </div>
             <div className='text-center font-mono z-10 px-4'>
@@ -34,6 +36,7 @@ export default function Home() {
                     </a>
                 </div>
             </div>
+            
         </section>
     )
 }

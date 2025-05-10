@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import RevealOnScroll from '../UI/RevealOnScroll';
 
 export default function Work() {
     const [openJob, setOpenJob] = useState(null);
@@ -76,6 +77,7 @@ export default function Work() {
 
     return (
         <section id="work" className="min-h-screen font-mono flex items-center justify-center py-20">
+            <RevealOnScroll>
             <div className="max-w-6xl mx-auto px-4 w-full">
                 <div className="w-full text-center mb-12">
                     <h2 className="text-4xl font-semibold bg-gradient-to-r from-teal-100 via-teal-500 to-teal-600 bg-clip-text text-transparent">
@@ -121,6 +123,7 @@ export default function Work() {
                     ))}
                 </div>
             </div>
+            </RevealOnScroll>
         </section>
     );
 }
