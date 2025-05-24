@@ -6,12 +6,9 @@ export default function Future() {
     <section id="future" className="min-h-screen font-mono flex flex-col items-center justify-center py-20">
         <RevealOnScroll>
       <div className="max-w-4xl mx-auto px-4 text-center space-y-10">
-        {/* Section Header */}
         <h2 className="text-4xl font-semibold text-transparent bg-gradient-to-r from-teal-100 via-teal-500 to-teal-600 bg-clip-text">
           Future Endeavors
         </h2>
-
-        {/* Intro Message */}
         <div className="text-gray-100 text-lg space-y-4">
           <p>
             Balancing 17+ credits, leadership roles, a job, and schoolwork doesn’t leave much space for side projects,

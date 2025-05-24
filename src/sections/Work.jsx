@@ -10,8 +10,8 @@ export default function Work() {
             title: "Associate Software Developer",
             company: "Sentry Insurance",
             dates: "May 2025 - Present",
-            skills: ["TBD"],
-            description: "TBD"
+            skills: ["C#", "HTML", "ASP.NET MVC", "LINQ to SQL", "Visual Studio"],
+            description: "Collaborate with fellow co-op students and full time teams to develop a full stack application."
         },
         {
             id: 2,
